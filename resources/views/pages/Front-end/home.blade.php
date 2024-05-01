@@ -124,7 +124,7 @@
             <div class="container">
                 <div class="bg-white rounded shadow overflow-hidden">
                     <div class="pt-4 pb-5 px-6 border-bottom border-secondary-light">
-                        <h4 class="mb-0">Recent Transactions</h4>
+                        <h4 class="mb-0">Recent Leave Record</h4>
                     </div>
                     <div class="px-4 table-responsive">
                         <table class="table mb-0 table-borderless table-striped small">

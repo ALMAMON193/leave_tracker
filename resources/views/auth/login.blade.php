@@ -27,6 +27,11 @@
                                         Password</a>
                                 </span>
                             </div>
+
+                            @if (auth()->check() && auth()->user()->isAdmin())
+                                <a href="{{ route('signup') }}" class="btn btn-primary">Sign Up</a>
+                            @endif
+
                         </form> <!-- Make sure to close the form tag -->
                     </div>
                 </div>
